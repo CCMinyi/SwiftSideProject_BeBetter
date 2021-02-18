@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183BE7F625C5895A006C514F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7F525C5895A006C514F /* SignUp.swift */; };
+		184A7ED825C538F900502597 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A7ED725C538F900502597 /* ImagePicker.swift */; };
+		184BB0A425C150C90034805C /* BeBetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB0A325C150C90034805C /* BeBetterApp.swift */; };
+		184BB0A625C150C90034805C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB0A525C150C90034805C /* ContentView.swift */; };
+		184BB0A825C150CB0034805C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184BB0A725C150CB0034805C /* Assets.xcassets */; };
+		184BB0AB25C150CB0034805C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184BB0AA25C150CB0034805C /* Preview Assets.xcassets */; };
+		184BB0BC25C152040034805C /* Seravek-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 184BB0BB25C152040034805C /* Seravek-Bold.ttf */; };
+		184BB0CD25C155420034805C /* SPShemokmedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 184BB0CC25C155420034805C /* SPShemokmedi.ttf */; };
+		188C638525CED52E00537585 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C638425CED52E00537585 /* Goal.swift */; };
+		188C638A25CEEFE700537585 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C638925CEEFE700537585 /* Meal.swift */; };
+		18BF2C4725C1652B00CFC05F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF2C4625C1652B00CFC05F /* LoginView.swift */; };
+		18BF2C4A25C171B400CFC05F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF2C4925C171B400CFC05F /* MainView.swift */; };
+		18BF2C4D25C1765E00CFC05F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF2C4C25C1765E00CFC05F /* SignUpView.swift */; };
+		18BF2C5125C18C5400CFC05F /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF2C5025C18C5400CFC05F /* CameraButtonView.swift */; };
+		18C823DA25C7EE6A00F95B71 /* MealRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C823D925C7EE6A00F95B71 /* MealRecommend.swift */; };
+		18C823DF25C7EE8C00F95B71 /* CaloriesTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C823DE25C7EE8C00F95B71 /* CaloriesTracking.swift */; };
+		18F105B925CFC0E600D3FA47 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F105B825CFC0E600D3FA47 /* Color+Extension.swift */; };
+		18F105BD25CFC3C300D3FA47 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F105BC25CFC3C200D3FA47 /* MealDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183BE7F525C5895A006C514F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		184A7ED725C538F900502597 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		184BB0A025C150C90034805C /* BeBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184BB0A325C150C90034805C /* BeBetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeBetterApp.swift; sourceTree = "<group>"; };
+		184BB0A525C150C90034805C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		184BB0A725C150CB0034805C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184BB0AA25C150CB0034805C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184BB0AC25C150CB0034805C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184BB0BB25C152040034805C /* Seravek-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seravek-Bold.ttf"; sourceTree = "<group>"; };
+		184BB0CC25C155420034805C /* SPShemokmedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SPShemokmedi.ttf; sourceTree = "<group>"; };
+		188C638425CED52E00537585 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		188C638925CEEFE700537585 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		18BF2C4625C1652B00CFC05F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		18BF2C4925C171B400CFC05F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		18BF2C4C25C1765E00CFC05F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		18BF2C5025C18C5400CFC05F /* CameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
+		18C823D925C7EE6A00F95B71 /* MealRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecommend.swift; sourceTree = "<group>"; };
+		18C823DE25C7EE8C00F95B71 /* CaloriesTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesTracking.swift; sourceTree = "<group>"; };
+		18F105B825CFC0E600D3FA47 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		18F105BC25CFC3C200D3FA47 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184BB09D25C150C90034805C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184BB09725C150C90034805C = {
+			isa = PBXGroup;
+			children = (
+				184BB0A225C150C90034805C /* BeBetter */,
+				184BB0A125C150C90034805C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184BB0A125C150C90034805C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184BB0A025C150C90034805C /* BeBetter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184BB0A225C150C90034805C /* BeBetter */ = {
+			isa = PBXGroup;
+			children = (
+				184BB0A325C150C90034805C /* BeBetterApp.swift */,
+				18F105B725CFC0BB00D3FA47 /* Extention */,
+				188C638825CEEFD500537585 /* Type */,
+				184BB0B325C150DA0034805C /* Fonts */,
+				184BB0A525C150C90034805C /* ContentView.swift */,
+				18BF2C4625C1652B00CFC05F /* LoginView.swift */,
+				18BF2C4925C171B400CFC05F /* MainView.swift */,
+				18C823D825C7EE2F00F95B71 /* MainViewModel */,
+				18BF2C4C25C1765E00CFC05F /* SignUpView.swift */,
+				183BE7F525C5895A006C514F /* SignUp.swift */,
+				184A7ED725C538F900502597 /* ImagePicker.swift */,
+				18BF2C5025C18C5400CFC05F /* CameraButtonView.swift */,
+				184BB0A725C150CB0034805C /* Assets.xcassets */,
+				184BB0AC25C150CB0034805C /* Info.plist */,
+				184BB0A925C150CB0034805C /* Preview Content */,
+			);
+			path = BeBetter;
+			sourceTree = "<group>";
+		};
+		184BB0A925C150CB0034805C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				184BB0AA25C150CB0034805C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184BB0B325C150DA0034805C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				184BB0BB25C152040034805C /* Seravek-Bold.ttf */,
+				184BB0CC25C155420034805C /* SPShemokmedi.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		188C638825CEEFD500537585 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				188C638925CEEFE700537585 /* Meal.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		18C823D825C7EE2F00F95B71 /* MainViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18C823D925C7EE6A00F95B71 /* MealRecommend.swift */,
+				18F105BC25CFC3C200D3FA47 /* MealDetail.swift */,
+				188C638425CED52E00537585 /* Goal.swift */,
+				18C823DE25C7EE8C00F95B71 /* CaloriesTracking.swift */,
+			);
+			path = MainViewModel;
+			sourceTree = "<group>";
+		};
+		18F105B725CFC0BB00D3FA47 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				18F105B825CFC0E600D3FA47 /* Color+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184BB09F25C150C90034805C /* BeBetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184BB0AF25C150CB0034805C /* Build configuration list for PBXNativeTarget "BeBetter" */;
+			buildPhases = (
+				184BB09C25C150C90034805C /* Sources */,
+				184BB09D25C150C90034805C /* Frameworks */,
+				184BB09E25C150C90034805C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeBetter;
+			productName = BeBetter;
+			productReference = 184BB0A025C150C90034805C /* BeBetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184BB09825C150C90034805C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					184BB09F25C150C90034805C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 184BB09B25C150C90034805C /* Build configuration list for PBXProject "BeBetter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184BB09725C150C90034805C;
+			productRefGroup = 184BB0A125C150C90034805C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184BB09F25C150C90034805C /* BeBetter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184BB09E25C150C90034805C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184BB0AB25C150CB0034805C /* Preview Assets.xcassets in Resources */,
+				184BB0CD25C155420034805C /* SPShemokmedi.ttf in Resources */,
+				184BB0A825C150CB0034805C /* Assets.xcassets in Resources */,
+				184BB0BC25C152040034805C /* Seravek-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184BB09C25C150C90034805C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF2C4A25C171B400CFC05F /* MainView.swift in Sources */,
+				18C823DA25C7EE6A00F95B71 /* MealRecommend.swift in Sources */,
+				18BF2C4D25C1765E00CFC05F /* SignUpView.swift in Sources */,
+				18F105BD25CFC3C300D3FA47 /* MealDetail.swift in Sources */,
+				18BF2C4725C1652B00CFC05F /* LoginView.swift in Sources */,
+				184A7ED825C538F900502597 /* ImagePicker.swift in Sources */,
+				18BF2C5125C18C5400CFC05F /* CameraButtonView.swift in Sources */,
+				188C638525CED52E00537585 /* Goal.swift in Sources */,
+				18C823DF25C7EE8C00F95B71 /* CaloriesTracking.swift in Sources */,
+				183BE7F625C5895A006C514F /* SignUp.swift in Sources */,
+				184BB0A625C150C90034805C /* ContentView.swift in Sources */,
+				184BB0A425C150C90034805C /* BeBetterApp.swift in Sources */,
+				188C638A25CEEFE700537585 /* Meal.swift in Sources */,
+				18F105B925CFC0E600D3FA47 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		184BB0AD25C150CB0034805C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184BB0AE25C150CB0034805C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184BB0B025C150CB0034805C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeBetter/Preview Content\"";
+				DEVELOPMENT_TEAM = 262V428DLB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeBetter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allen-s-practice.BeBetter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184BB0B125C150CB0034805C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeBetter/Preview Content\"";
+				DEVELOPMENT_TEAM = 262V428DLB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeBetter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allen-s-practice.BeBetter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184BB09B25C150C90034805C /* Build configuration list for PBXProject "BeBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184BB0AD25C150CB0034805C /* Debug */,
+				184BB0AE25C150CB0034805C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184BB0AF25C150CB0034805C /* Build configuration list for PBXNativeTarget "BeBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184BB0B025C150CB0034805C /* Debug */,
+				184BB0B125C150CB0034805C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184BB09825C150C90034805C /* Project object */;
+}
