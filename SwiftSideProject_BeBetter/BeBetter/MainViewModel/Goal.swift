@@ -14,14 +14,14 @@ struct Goal: View {
     private let _maxIndex = 2
     
     @State var feeling:String = ""
-    var manager = HttpNLP()
+    @ObservedObject var manager = HttpNLP()
+    //var manager = HttpNLP()
     @State var hiddenTrigger = false
     //@State var SadMood:Bool = false
-    
     var body: some View {
-        
+         
         ZStack {
-            if (self.hiddenTrigger==true){
+            if (self.manager.SadMood==true){
                 Color(#colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1))
                     .frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             } else{
@@ -34,7 +34,7 @@ struct Goal: View {
                 
                 VStack {
                     
-                    Text("心情小語").font(.custom("SPShemokmedi", size: 40))
+                    Text("心情小語").font(.custom("hanwangkantan.ttf", size: 40))
                     TextField("Testing", text: $feeling)
                         .padding()
                         .background(Color(#colorLiteral(red: 0.7055450082, green: 0.7056652904, blue: 0.7055291533, alpha: 1)))
@@ -48,6 +48,28 @@ struct Goal: View {
                         Text("Button")
                     })
                 }.padding()
+                VStack {
+                    Text("\(SignUp().GoalMonth)個月後我要變成這樣！").font(.custom("hanwangkantan.ttf", size: 20))
+                    VStack {
+                        if SignUp().imageData.count != 0 {
+                            Image(uiImage: UIImage(data:SignUp().imageData)!)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame( height: 150, alignment: .center)
+                                .clipped()
+                                .cornerRadius(150)
+                                
+                        } else{
+                            Image("init_selfie")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame( height: 150, alignment: .center)
+                                .clipped()
+                                .cornerRadius(150)
+                            
+                        }
+                    }
+                }
                 PagingView(index: $currentIndex, maxIndex: _maxIndex) {
                     SplashView( title: "改變你自己", description: "永遠不要低估一個胖子瘦下來的魅力")
                     SplashView( title: "再節制一點", description: "少熱量、多低卡，明天你女友是金泫雅")
@@ -183,55 +205,7 @@ struct SplashView: View {
     
 }
 
-struct ServerMessage : Decodable{
-    var labels : Int
-}
 
-
-
-class HttpNLP : ObservableObject {
-    
-    var SadMood = false
-
-    var didChange = PassthroughSubject<HttpNLP,Never>()
-    
-    var authenticated = false{
-        didSet{
-            didChange.send(self)
-        }
-    }
-    
-    func checkDetails(feeling:String) {
-        // NLP API URL
-        guard let url = URL(string: "https://e80c6088f7f9.ngrok.io/bert/sentiment/en") else {return}
-        
-        let databody = ["text":feeling]
-        
-        let finalBody = try! JSONSerialization.data(withJSONObject: databody)
-        
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.httpBody = finalBody
-        
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        
-        URLSession.shared.dataTask(with: request){(data,response,error) in
-            
-            guard let data = data else{return}
-            
-            let finalData = try? JSONDecoder().decode(ServerMessage.self, from: data)
-            let NLP_result = finalData!.labels
-            print(NLP_result)
-            if NLP_result == 1{
-                self.SadMood = true
-            }else{
-                self.SadMood = false
-            }
-            print(self.SadMood)
-            
-        }.resume()
-    }
-}
 
 /*func changeBkColor(SadMood: Bool) -> Color
 {

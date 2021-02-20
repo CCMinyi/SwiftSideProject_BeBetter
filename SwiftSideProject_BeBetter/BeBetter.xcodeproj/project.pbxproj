@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		183BE7F625C5895A006C514F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7F525C5895A006C514F /* SignUp.swift */; };
+		18427C3725DFE4DD008664C1 /* NLPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18427C3625DFE4DD008664C1 /* NLPModel.swift */; };
+		18427C3B25DFF6F5008664C1 /* myounghk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18427C3A25DFF6F5008664C1 /* myounghk.otf */; };
+		18427C3E25DFF900008664C1 /* hanwangkantan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18427C3D25DFF900008664C1 /* hanwangkantan.ttf */; };
 		184A7ED825C538F900502597 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A7ED725C538F900502597 /* ImagePicker.swift */; };
 		184BB0A425C150C90034805C /* BeBetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB0A325C150C90034805C /* BeBetterApp.swift */; };
 		184BB0A625C150C90034805C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB0A525C150C90034805C /* ContentView.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		183BE7F525C5895A006C514F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		18427C3625DFE4DD008664C1 /* NLPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPModel.swift; sourceTree = "<group>"; };
+		18427C3A25DFF6F5008664C1 /* myounghk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myounghk.otf; sourceTree = "<group>"; };
+		18427C3D25DFF900008664C1 /* hanwangkantan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hanwangkantan.ttf; sourceTree = "<group>"; };
 		184A7ED725C538F900502597 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		184BB0A025C150C90034805C /* BeBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184BB0A325C150C90034805C /* BeBetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeBetterApp.swift; sourceTree = "<group>"; };
@@ -61,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18427C3525DFE4B7008664C1 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				18427C3625DFE4DD008664C1 /* NLPModel.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
 		184BB09725C150C90034805C = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +103,7 @@
 				18BF2C4925C171B400CFC05F /* MainView.swift */,
 				18C823D825C7EE2F00F95B71 /* MainViewModel */,
 				18BF2C4C25C1765E00CFC05F /* SignUpView.swift */,
+				18427C3525DFE4B7008664C1 /* APIModel */,
 				183BE7F525C5895A006C514F /* SignUp.swift */,
 				184A7ED725C538F900502597 /* ImagePicker.swift */,
 				18BF2C5025C18C5400CFC05F /* CameraButtonView.swift */,
@@ -111,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				184BB0BB25C152040034805C /* Seravek-Bold.ttf */,
+				18427C3A25DFF6F5008664C1 /* myounghk.otf */,
+				18427C3D25DFF900008664C1 /* hanwangkantan.ttf */,
 				184BB0CC25C155420034805C /* SPShemokmedi.ttf */,
 			);
 			path = Fonts;
@@ -204,6 +221,8 @@
 				184BB0CD25C155420034805C /* SPShemokmedi.ttf in Resources */,
 				184BB0A825C150CB0034805C /* Assets.xcassets in Resources */,
 				184BB0BC25C152040034805C /* Seravek-Bold.ttf in Resources */,
+				18427C3E25DFF900008664C1 /* hanwangkantan.ttf in Resources */,
+				18427C3B25DFF6F5008664C1 /* myounghk.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BF2C4A25C171B400CFC05F /* MainView.swift in Sources */,
+				18427C3725DFE4DD008664C1 /* NLPModel.swift in Sources */,
 				18C823DA25C7EE6A00F95B71 /* MealRecommend.swift in Sources */,
 				18BF2C4D25C1765E00CFC05F /* SignUpView.swift in Sources */,
 				18F105BD25CFC3C300D3FA47 /* MealDetail.swift in Sources */,

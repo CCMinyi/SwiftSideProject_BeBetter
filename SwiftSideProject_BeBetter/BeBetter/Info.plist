@@ -32,6 +32,8 @@
 	<array>
 		<string>Seravek-Bold.ttf</string>
 		<string>SPShemokmedi.ttf</string>
+		<string>myounghk.otf</string>
+		<string>hanwangkantan.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

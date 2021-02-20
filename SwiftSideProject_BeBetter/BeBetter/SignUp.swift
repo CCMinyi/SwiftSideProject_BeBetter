@@ -86,6 +86,7 @@ struct SignUp: View {
             
             Button(action: {
                 self.MoveToMain.toggle()
+                ContentView().SuccessLogin = true
             }, label: {
                 Text("Next").font(.custom("SPShemokmedi", size: 25)).foregroundColor(Color(#colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)))
             }).offset( y: -70)

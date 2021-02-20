@@ -10,7 +10,7 @@ import SwiftUI
 struct CaloriesTracking: View {
     
     @State var PickerSelectedItem = 0
-    
+    @ObservedObject var manager = HttpNLP()
     @State var DatePoints : [[CGFloat]] = [
         [158,167,159,193,186,143,182],
         [185,177,191,182,165,173,184]
@@ -18,7 +18,7 @@ struct CaloriesTracking: View {
     //var manager = HttpNLP()
     var body: some View {
         ZStack{
-            if Goal().manager.SadMood == true{
+            if manager.SadMood == true{
                 Color(#colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1))
                     .frame(maxWidth: .infinity, maxHeight: .infinity).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             } else {
