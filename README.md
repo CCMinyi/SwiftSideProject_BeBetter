@@ -1,6 +1,6 @@
 ## BeBetter減肥APP理念與特色
 我希望可以寫出以「鼓勵」為出發點的減肥App，讓減重者在減肥時有較大的動力，同時保持著健康心態。
-<img src="https://github.com/CCMinyi/SwiftSideProject_BeBetter/blob/main/BeBetter_relation.png" width = 200>
+<img src="https://github.com/CCMinyi/SwiftSideProject_BeBetter/blob/main/BeBetter_relation.png" width = 1000>
 市面上大部分的減肥軟體比較沒有照顧到紅色的這部分潛在用戶，BeBetter設計的理念就是相成為這些沒有自信、毅力也不是這麼堅強的用戶的慰藉、幫助他們達成自己的目標。
 
 為了貫徹這個理念，BeBetter提供了兩個特別的功能：目標展望&心情小語。
