@@ -12,3 +12,6 @@ BeBettter將修圖軟體的瘦臉功能套用在App中，引用了修圖軟體�
 <img src="https://github.com/CCMinyi/SwiftSideProject_BeBetter/blob/main/BeBetter_Goal.png" >  
 二、心情小語
 減肥是一個長期的戰爭，保持自己的身心健康是很重要的，BeBetter提供了心情小語這個功能，讓用戶隨意的抒發自己的情緒，內容會直接傳送到NLP模型的API，若發現內容是比較負面的，BeBetter會講使用者介面改為較柔和的背景顏色，讓用戶的使用時心情能更緩和。
+三、另外我們也有提供一些減肥軟體的基本功能：Tracking & Meal Recommendation  
+<img src="https://github.com/CCMinyi/SwiftSideProject_BeBetter/blob/main/TrackingView.png" >
+<img src="https://github.com/CCMinyi/SwiftSideProject_BeBetter/blob/main/MealView.png" >  
